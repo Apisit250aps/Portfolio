@@ -1,0 +1,98 @@
+a {
+    text-decoration: none;
+}
+
+/* start main.html */
+.home_connect {
+    border-radius: 20px;
+    padding: 20px;
+    
+} 
+.home-link {
+   color: rgba(255, 0, 255, 1);
+   margin: 5px;
+   padding: 10px;
+   border: solid;
+   border-radius: 20px;
+}
+.home-link:hover {
+    color: orange;
+
+    text-decoration: none;
+  
+}
+.solid {
+    border-radius: 10px;
+    border: solid;
+    border-color: rgb(0, 255, 255);
+    padding: 10px;
+}
+/* start main.html */
+
+/* start library.html  */
+
+.frame-logo-lib {
+    background-color: white;
+    border-radius: 50px;
+    margin: 1%;
+}
+
+.img-logo-lib {
+    padding: 3px;
+    width: 150px;
+    height: 75px;
+    border-radius: 5px;
+}
+.img-logo-lib:hover {
+    background-color: darkgray;
+}
+
+.dropbtn {
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #ccc5b9;
+}
+
+.bg-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    padding: 10px;
+    bottom: 10%;
+}
+
+.search-path {
+    padding: 5px;
+}
+
+
+/* end library.html */
+

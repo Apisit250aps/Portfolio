@@ -4,15 +4,14 @@ from django.http import HttpResponse
 
 # Create your views here.
 
-
 def homepage(request):
     data = {
         "title":"Homepage"
     }
-    return render(request, 'port_1/main.html', data)
+    return render(request, 'statics/home/main.html', data)
 
 def library(request):
     data = {
         "title":"Library"
     }
-    return render(request, 'port_2/library.html')
+    return render(request, 'statics/works1/library.html', data)
