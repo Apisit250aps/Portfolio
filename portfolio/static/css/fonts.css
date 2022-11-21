@@ -1,0 +1,65 @@
+@font-face {
+    font-family: pixels-16;
+    src: url(/static/font/KarmaticArcade.ttf);
+}
+
+@font-face {
+    font-family: pixels-8;
+    src: url(/static/font/PSLCDMatrixII.ttf);
+}
+
+@font-face {
+    font-family: cubic-6;
+    src: url(/static/font/cubic.ttf);
+}
+
+@font-face {
+    font-family: hand-eng;
+    src: url(/static/font/KarmaticArcade.ttf);
+}
+
+@font-face {
+    font-family: eng-1;
+    src: url(/static/font/Dsu_adi.ttf);
+}
+
+@font-face {
+    font-family: digital;
+    src: url(/static/font/Digital.ttf);
+}
+
+@font-face {
+    font-family: keyboard-caps;
+    src: url(/static/font/BETSY2.ttf);
+}
+
+
+
+
+.pixel-16 {
+    font-family: pixels-16;
+}
+
+.pixel-8 {
+    font-family: pixels-8;
+}
+
+.cubics {
+    font-family: cubic-6;
+}
+
+.hand-eng {
+    font-family: hand-eng;
+}
+
+.eng-1 {
+    font-family: eng-1;
+}
+
+.digital {
+    font-family: digital;
+}
+
+.key-caps {
+    font-family: keyboard-caps;
+}
