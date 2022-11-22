@@ -2,6 +2,18 @@ a {
     text-decoration: none;
 }
 
+/* start portfolio */
+
+.profile-frame {
+    background-color: black;
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+}
+
+
 /* start main.html */
 .home_connect {
     border-radius: 20px;

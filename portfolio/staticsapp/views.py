@@ -8,7 +8,7 @@ def homepage(request):
     data = {
         "title":"Homepage"
     }
-    return render(request, 'statics/home/main.html', data)
+    return render(request, 'portfolio.html', data)
 
 def library(request):
     data = {
