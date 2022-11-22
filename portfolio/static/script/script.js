@@ -1,4 +1,4 @@
-var work_list = [['Home', ''], ['Library', 'library']]
+var work_list = [['Home', ''], ['Library', 'library'], ['Member', 'member']]
 
 function work_render() {
 

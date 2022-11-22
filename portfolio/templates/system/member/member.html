@@ -1,0 +1,20 @@
+{% extends 'system/main.html' %}
+{% load static %}
+
+{% block body %}
+
+<div class="d-flex flex-row align-items-center bg-dark text-light">
+    <div class="d-flex flex-row align-items-center bg-dark text-light">
+        <h1 class="d-flex align-items-center">Register</h1>
+    </div>
+</div>
+<div class="d-flex flex-row-sm flex-row-md justify-content-center">
+    <iframe width="30%" height="420" v-lazy-load src="https://www.pttor.com/oil_price_board?lang=th" frameborder="0"
+        align="center" class="th-txt"></iframe>
+
+    <iframe width="30%" height="420" v-lazy-load src="https://www.pttor.com/oil_price_board?lang=en" frameborder="1"
+        class="bg-dark"></iframe>
+
+</div>
+
+{% endblock body %}

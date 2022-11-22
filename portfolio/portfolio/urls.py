@@ -16,9 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from staticsapp import views as stt
+from systems import views as systm
 
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("", stt.homepage),
-    path("library", stt.library)
+    path("library", stt.library),
+    path("member", systm.member_system)
 ]
