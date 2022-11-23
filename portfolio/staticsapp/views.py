@@ -6,7 +6,7 @@ from django.http import HttpResponse
 
 def homepage(request):
     data = {
-        "title":"Homepage"
+        "title":"Portfolio"
     }
     return render(request, 'portfolio.html', data)
 
