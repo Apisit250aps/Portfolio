@@ -131,3 +131,49 @@ a {
     padding: 2px;
 }
 
+/* end portfolio */
+
+/* start member */
+
+.login-pad {
+    border-radius: 50px;
+}
+.head-login {
+    border-radius: 50px;
+    font-size: large;
+    font-weight: 500;
+}
+.head-txt {
+    font-size: xx-large;
+    font-weight: 500;
+
+}
+
+.login-entry {
+    border-style: solid;
+    border-color: gray;
+    border-radius: 50px;
+    padding: 10px;
+    padding-right: 30px;
+    font-size: large;
+    font-weight: 500;
+    background: none;
+}
+.res {
+    color: white;
+    height: 50px;
+    border: none;
+    border-radius: 25px 0px 0px 25px;
+    font-size: large;
+    font-weight: 500;
+}
+ .sub {
+    color: white;
+    height: 50px;
+    border: none;
+    border-radius: 0px 25px 25px 0px;
+    font-size: large;
+    font-weight: 500;
+ }
+
+/* end member */
