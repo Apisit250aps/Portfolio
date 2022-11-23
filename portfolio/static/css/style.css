@@ -131,10 +131,3 @@ a {
     padding: 2px;
 }
 
-.h-1 {
-    position: relative;
-}
-
-.h-1:hover {
-    top: 50px;
-}
