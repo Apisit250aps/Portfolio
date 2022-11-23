@@ -21,6 +21,6 @@ from systems import views as systm
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("", stt.homepage),
-    path("library", stt.library),
-    path("member", systm.member_system)
+    path("statics/library", stt.library),
+    path("system/member", systm.member_system)
 ]
