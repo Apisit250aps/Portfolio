@@ -22,6 +22,7 @@
 
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
     <link rel="stylesheet" href="{% static 'css/font.css' %}">
+    <link rel="stylesheet" href="{% static 'css/animation.css' %}">
     <script src="{% static 'script/script.js' %}"></script>
 </head>
 
@@ -32,8 +33,9 @@
                 class="profile-img rounded-circle">
         </div>
         <div class="info d-flex flex-column justify-content-center p-3">
-            <h1 class="text-dark pixel-16">Apisit Saithong</h1>
-            <div class="d-flex flex-sm-row justify-content-around align-items-center mt-3">
+            <h1 class="pixel-16 name-rgb bg-dark p-3">Apisit Saithong</h1>
+
+            <div class="d-flex flex-sm-row bg-light justify-content-around align-items-center mt-3 p-2 border-rgb">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-code" width="100"
                     height="100" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none"
                     stroke-linecap="round" stroke-linejoin="round">
@@ -45,12 +47,13 @@
                 <h3 class="text-dark pixel-16 justify-content-center">Programming</h3>
             </div>
 
+
         </div>
     </nav>
     <div class="contents d-flex flex-column justify-content-center align-items-center bg-dark p-2 align-items-center">
         <div class="d-flex flex-column justify-content-center align-items-center">
             <div class="block-items p-3 bg-dark w-100 justify-content-center">
-                <h4 class="pixel-16 text-light">brief history</h4>
+                <h4 class="pixel-16 fg-rgb h-1">brief history</h4>
                 <hr class="bg-light text-light">
                 <h4>
                     <p class="th-txt text-light">แอปเปิล เชฟโปรเจคท์ ฟีด คอร์ป อ่วมแพนดาพะเรอเจ็ต ฮาโลวีนทับซ้อนรีเสิร์ช
@@ -65,7 +68,7 @@
 
             </div>
             <div class="block-items p-3 bg-dark w-100">
-                <h4 class="pixel-16 text-light">Contact</h4>
+                <h4 class="pixel-16 fg-rgb">Contact</h4>
                 <hr class="bg-dark text-light">
                 <h4>
                     <p class="th-txt text-light">
@@ -76,7 +79,7 @@
                 </h4>
             </div>
             <div class="block-items p-3 bg-dark w-100">
-                <h4 class="pixel-16 text-light">Skills</h4>
+                <h4 class="pixel-16 fg-rgb">Skills</h4>
                 <hr class="bg-light text-light">
                 <h4>
                     <p class="th-txt text-light">
@@ -88,13 +91,13 @@
 
             </div>
             <div class="block-items p-3 bg-dark w-100">
-                <h4 class="pixel-16 text-light">Works List</h4>
+                <h4 class="pixel-16 fg-rgb">Works List</h4>
                 <hr class="bg-dark text-light">
                 <h4>
-                    <p class="th-txt text-light">            
-                            <script>
-                                work_render()
-                            </script>
+                    <p class="th-txt text-light">
+                        <script>
+                            work_render()
+                        </script>
                     </p>
                 </h4>
             </div>

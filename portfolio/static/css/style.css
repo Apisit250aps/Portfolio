@@ -8,27 +8,31 @@ a {
 .home_connect {
     border-radius: 20px;
     padding: 20px;
-    
-} 
-.home-link {
-   color: rgba(255, 0, 255, 1);
-   margin: 5px;
-   padding: 10px;
-   border: solid;
-   border-radius: 20px;
+
 }
+
+.home-link {
+    color: rgba(255, 0, 255, 1);
+    margin: 5px;
+    padding: 10px;
+    border: solid;
+    border-radius: 20px;
+}
+
 .home-link:hover {
     color: orange;
 
     text-decoration: none;
-  
+
 }
+
 .solid {
     border-radius: 10px;
     border: solid;
     border-color: rgb(0, 255, 255);
     padding: 10px;
 }
+
 /* start main.html */
 
 /* start library.html  */
@@ -45,6 +49,7 @@ a {
     height: 75px;
     border-radius: 5px;
 }
+
 .img-logo-lib:hover {
     background-color: darkgray;
 }
@@ -100,10 +105,10 @@ a {
 /* start portfolio */
 
 .profile-frame {
-    
+
     width: 350px;
     height: 350px;
-    padding: 25px; 
+    padding: 25px;
     z-index: 10;
     margin: 20px;
 }
@@ -111,13 +116,25 @@ a {
 .profile-img {
     width: 300px;
     height: 300px;
-    
+
 }
 
 .contents {
     border-radius: 5px;
 }
+
 .block-items {
     border-radius: 20px;
 }
 
+.frame-1 {
+    padding: 2px;
+}
+
+.h-1 {
+    position: relative;
+}
+
+.h-1:hover {
+    top: 50px;
+}

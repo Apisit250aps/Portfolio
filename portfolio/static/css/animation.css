@@ -1,0 +1,64 @@
+@keyframes head_fg {
+    0% {
+        color: rgb(255, 0, 255);
+    }
+    50% {
+        color: rgb(0, 255, 255);
+    }
+    100% {
+        color: rgb(255, 255, 0);
+    }
+}
+@keyframes name_fg {
+    0% {
+        color: rgb(255, 0, 0);
+    }
+    25%{
+        color: rgb(255, 128, 0);
+    }
+    50%{
+        color: rgb(255, 255, 0);
+    }
+    75%{
+        color: rgb(0, 255, 128);
+    }
+    100%{
+        color: rgb(255, 128, 255);
+    }
+    
+}
+
+@keyframes rgb_board {
+    0% {
+        border-color: rgb(255, 0, 0);
+    }
+    25%{
+        border-color: rgb(255, 128, 0);
+    }
+    50%{
+        border-color: rgb(255, 255, 0);
+    }
+    75%{
+        border-color: rgb(0, 255, 128);
+    }
+    100%{
+        border-color: rgb(255, 128, 255);
+    }
+    
+}
+
+.fg-rgb {
+    animation: head_fg 1s infinite;
+}
+
+.name-rgb {
+    animation: name_fg 2.5s infinite;
+    border-radius: 20px;
+}
+
+.border-rgb {
+    border: 2px;
+    border-style: solid;
+    border-radius: 15px;
+    animation: rgb_board 1s infinite;
+}
