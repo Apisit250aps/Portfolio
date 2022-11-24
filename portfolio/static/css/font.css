@@ -1,3 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
 @font-face {
     font-family: pixels-16;
     src: url(/static/font/KarmaticArcade.ttf);

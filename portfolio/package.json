@@ -11,5 +11,8 @@
   "dependencies": {
     "read-excel-file": "^5.5.3",
     "tedious": "^15.1.2"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
   }
 }

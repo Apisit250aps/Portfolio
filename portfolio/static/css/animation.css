@@ -1,3 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
 @keyframes head_fg {
     0% {
         color: rgb(255, 0, 255);
