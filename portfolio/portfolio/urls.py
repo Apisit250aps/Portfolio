@@ -22,5 +22,5 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("", stt.homepage),
     path("statics/library", stt.library),
-    path("system/member", systm.member_system)
+    path("system/member/register", systm.member_system)
 ]

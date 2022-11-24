@@ -2,23 +2,25 @@
 {% load static %}
 
 {% block body %}
-
 <div class="d-flex flex-column justify-content-center align-items-center light text-light p-5">
-    <div class="login-pad bg-dark d-flex flex-column align-items-center w-75 h-75 p-2">
+    <div class="login-pad bg-dark d-flex flex-column align-items-center w-75 p-2">
         <div class="head-login bg-light d-flex text-dark p-2 mb-3 mt-5 w-25 justify-content-center align-items-center">
             <h1 class="head-txt">Register</h1>
         </div>
-        
+
         <div class="form-login w-100 d-flex align-items-center justify-content-center mt-5">
             <div class="login-frame w-50">
-                <input type="name" name="name" id="in-name" class="login-entry w-100 text-white m-2" placeholder="Name">
-                <input type="username" name="username" id="in-username" class="login-entry w-100 text-white m-2" placeholder="Username">
-                <input type="email" name="email" id="in-email" class="login-entry w-100 text-white m-2" placeholder="Email">
-                <input type="password" name="password" id="in-password" class="login-entry w-100 text-white m-2" placeholder="Password">
-                <input type="password" name="password" id="in-confirm-password" class="login-entry w-100 text-white m-2" placeholder="Confirm password">
+                <input type="name" name="name" id="in-name" class="entry w-100 text-white m-2" placeholder="Name">
+                <input type="email" name="email" id="in-email" class="entry w-100 text-white m-2" placeholder="Email">
+                <input type="username" name="username" id="in-username" class="entry w-100 text-white m-2"
+                    placeholder="Username">
+                <input type="password" name="password" id="in-password" class="entry w-100 text-white m-2"
+                    placeholder="Password">
+                <input type="password" name="password" id="in-confirm-password" class="entry w-100 text-white m-2"
+                    placeholder="Confirm password">
             </div>
         </div>
-        <div class="access w-100 d-flex flex-row align-items-center justify-content-center m-1">
+        <div class="access w-100 d-flex flex-lg-row flex-sm-column align-items-center justify-content-center m-1">
             <div class="d-flex flex-row align-items-center justify-content-around w-25 p-2">
                 <input type="checkbox" name="access" id="access">
                 <h5 class="th-txt align-items-center justify-content-center ml-2 mt-2">Lorem ipsum dolor sit amet.</h5>
@@ -29,17 +31,16 @@
                 <h5 class="th-txt align-items-center justify-content-center ml-2 mt-2">Lorem ipsum dolor sit amet.</h5>
 
             </div>
-            
+
         </div>
-        <div class="access w-100 d-flex flex-row align-items-center justify-content-center m-1">
-            <div class="rs d-flex flex-row align-items-center justify-content-center w-25 p-2">
+        <div class="access w-100 d-flex flex-row align-items-center justify-content-center m-1 mb-5">
+            <div class="rs d-flex flex-row align-items-center justify-content-center w-25">
                 <button type="reset" class="btn active res w-100 bg-danger">Cancel</button>
             </div>
-            <div class="sm d-flex flex-row align-items-center justify-content-center w-25 p-2">
+            <div class="sm d-flex flex-row align-items-center justify-content-center w-25">
                 <button type="submit" class="btn active sub w-100 bg-success">Register</button>
             </div>
         </div>
     </div>
-    
 </div>
 {% endblock body %}

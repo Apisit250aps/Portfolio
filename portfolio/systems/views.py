@@ -45,7 +45,7 @@ def member_system(request):
  
     
     data = {
-        'title':'Member'
+        'title':'Register'
     }
-    return render(request, 'system/member/member.html', data)
+    return render(request, 'system/member/register.html', data)
 
