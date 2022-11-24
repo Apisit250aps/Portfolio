@@ -41,11 +41,13 @@ _data = ['นายเจษฎา ตอนศรี'
 
 
 def member_system(request):
-       
- 
-    
     data = {
         'title':'Register'
     }
     return render(request, 'system/member/register.html', data)
+
+def login(request):
+    data = {'title':'Login'}
+    return render(request, 'system/member/login.html', data)
+    
 
