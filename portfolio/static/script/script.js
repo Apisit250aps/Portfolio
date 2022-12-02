@@ -1,4 +1,10 @@
-var work_list = [['Home', ''], ['Library', 'statics/library'], ['Member', 'system/member/register'], ['Login', 'system/member/login']]
+var work_list = [['Home', ''],
+['Library', 'statics/library'],
+['Member', 'system/member/register'],
+['Login', 'system/member/login'],
+['form', 'system/form']]
+
+
 var skills = ['Python', 'Django', 'JavaScript', 'HTML, CSS, Bootstrap', 'JAVA']
 var contact = [['Facebook', 'https://web.facebook.com/aps.apisit.250/'], ['GitHub', 'https://github.com/Apisit250aps']]
 

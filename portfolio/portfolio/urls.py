@@ -15,13 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from staticsapp import views as stt
-from systems import views as systm
+from myport import views as port
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("", stt.homepage),
-    path("statics/library", stt.library),
-    path("system/member/register", systm.member_system),
-    path("system/member/login", systm.login)
+    path('', port.portfolio, name='portfolio')
+    
 ]
