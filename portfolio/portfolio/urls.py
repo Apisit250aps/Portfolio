@@ -19,6 +19,9 @@ from myport import views as port
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path('', port.portfolio, name='portfolio')
+    path('', port.portfolio, name='portfolio'),
+    path('work', port.workpage, name='work'),
+    path('form', port.form_get, name='formGET'),
+    path('table', port.table, name='table')    
     
 ]

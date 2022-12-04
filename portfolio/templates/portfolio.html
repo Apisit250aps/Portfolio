@@ -24,14 +24,20 @@
     <link rel="stylesheet" href="{% static 'css/font.css' %}">
     <link rel="stylesheet" href="{% static 'css/animation.css' %}">
     <script src="{% static 'script/script.js' %}"></script>
+    <script src="{% static 'script/jquery.js' %}"></script>
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.js"
+        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
 </head>
 
 <body class="bg-light">
-    <nav id="banner"  class="nav d-flex flex-row col-12 justify-content-center bg-dark" >
-        
+    <nav id="banner" class="nav d-flex flex-row col-12 justify-content-center bg-dark">
+
         <div id="frame-profile" class="container d-flex flex-row justify-content-center">
             <div id="profile" class="d-flex flex-lg-row flex-column align-items-center justify-content-center">
-                <img id="profile-img" src="{% static 'img/portfolio/profile.jpg' %}" alt="" class="col-5 col-sm-5 col-md-4 col-lg-3 img-fluid img-thumbnail rounded-circle">
+                <img id="profile-img" src="{% static 'img/portfolio/profile.jpg' %}" alt=""
+                    class="col-5 col-sm-5 col-md-4 col-lg-3 img-fluid img-thumbnail rounded-circle">
             </div>
         </div>
     </nav>
@@ -40,27 +46,49 @@
             <h1 id="name" class="text-black border border-dark p-2 rounded shadow-sm" style="font-family: monospace;">
                 <b>Apisit Saithong</b>
             </h1>
-            <h2 id="nickname" class="text-black"  style="font-family: monospace;">
+            <h2 id="nickname" class="text-black" style="font-family: monospace;">
                 <p>Yu</p>
             </h2>
-            <h3 id="position" class="text-black-75" style="font-family: monospace;"><p>>Programmer<</p></h3>
+            <h3 id="position" class="text-black-75" style="font-family: monospace;">
+                <p>&gt;Programmer&lt;</p>
+            </h3>
         </div>
     </nav>
-    <nav class="nav navbar inline container d-flex flex-column flex-md-row align-items-center justify-content-center col-12">
-        <div id="contact" class="container d-flex flex-column bg-light col-md-3 col-12 border rounded shadow-sm p-3 h-100">
-            <h1 class="text-black">Contacts</h1>
-            <a href="#" class="nav-link text-dark"><h5 class="col-12">Facebook</h5></a>
-            <a href="#" class="nav-link text-dark"><h5 class="col-12">Line</h5></a>
-            <a href="#" class="nav-link text-dark"><h5 class="col-12">E-mail</h5></a>
-            <a href="#" class="nav-link text-dark"><h5 class="col-12">Facebook</h5></a>
-        </div>
-        <div id="contact" class="container d-flex flex-column bg-light col-md-3 col-12 border rounded shadow-sm p-3 h-100">
+    <nav class="nav navbar m-1 d-flex flex-column flex-md-row align-items-center justify-content-center col-12">
+        <div id="contact"
+            class="container d-flex flex-column bg-light col-md-5 col-12 border rounded shadow-sm p-3 h-100 m-1">
             <h1 class="text-black">Skills</h1>
-            <a href="#" class="nav-link text-dark"><h5 class="col-12">Python</h5></a>
-            <a href="#" class="nav-link text-dark"><h5 class="col-12">JavaScript</h5></a>
-            <a href="#" class="nav-link text-dark"><h5 class="col-12">HTML CSS</h5></a>
-            <a href="#" class="nav-link text-dark"><h5 class="col-12">Bootstrap 5</h5></a>
+            <a href="#" class="nav-link text-dark">
+                <h5 class="col-12">Python</h5>
+            </a>
+            <a href="#" class="nav-link text-dark">
+                <h5 class="col-12">JavaScript</h5>
+            </a>
+            <a href="#" class="nav-link text-dark">
+                <h5 class="col-12">HTML CSS</h5>
+            </a>
+            <a href="#" class="nav-link text-dark">
+                <h5 class="col-12">Bootstrap 5</h5>
+            </a>
         </div>
+        <div id="contact"
+            class="container d-flex flex-column bg-light col-md-5 col-12 border rounded shadow-sm p-3 h-100 m-1">
+            <h1 class="text-black">Work</h1>
+            <a href="/work" class="nav-link text-dark">
+                <h5 class="col-12">Work List</h5>
+            </a>
+            <a href="admin" class="nav-link text-dark">
+                <h5 class="col-12">Admin</h5>
+            </a>
+            <a href="#" class="nav-link text-dark">
+                <h5 class="col-12">E-mail</h5>
+            </a>
+            <a href="#" class="nav-link text-dark">
+                <h5 class="col-12">Facebook</h5>
+            </a>
+        </div>
+
+
     </nav>
 </body>
 

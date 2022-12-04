@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "jquery": "^3.6.1",
     "read-excel-file": "^5.5.3",
     "tedious": "^15.1.2"
   },
