@@ -10,3 +10,8 @@ class Member(models.Model):
     password = models.CharField(max_length=100)
     tel = models.CharField(max_length=10)
     address = models.TextField(max_length=500)
+
+class Post(models.Model):
+    post_by = models.CharField(max_length=50)
+    post_date = models.DateTimeField(auto_now_add=True)
+    post_text = models.TextField(max_length=500)

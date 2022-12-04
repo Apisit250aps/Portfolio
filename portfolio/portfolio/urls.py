@@ -20,8 +20,11 @@ from myport import views as port
 urlpatterns = [
     path("admin/", admin.site.urls),
     path('', port.portfolio, name='portfolio'),
-    path('work', port.workpage, name='work'),
+    path('workpost', port.workpage, name='work'),
     path('form', port.form_get, name='formGET'),
+    path('loginform', port.loginForm),
+    path('login', port.login),
+    path('logout', port.logout),
     path('table', port.table, name='table')    
     
 ]

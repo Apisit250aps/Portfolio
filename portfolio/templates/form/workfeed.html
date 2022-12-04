@@ -1,0 +1,50 @@
+{% extends "form/workpost.html" %}
+{% load static %}
+
+{% block content %}
+
+<div class="container  border rounded shadow-sm p-3 m-2 col-12">
+    <form action="" method="get">
+        
+        <div class="border rounded p-2 shadow">
+            <a href="#" class="nav-link">
+                <p class="display-2">Post</p>
+            </a>
+            <textarea name="post" id="" cols="30" rows="10" class="form-control"></textarea>
+            <div class="form-group m-3 d-flex  justify-content-end">
+                <button type="reset" class="btn btn-danger m-3">Clear</button>
+                <button id="submit" type="submit" class="btn btn-success m-3">Post</button>
+            </div>
+        </div>
+        
+        
+    </form>
+</div>
+
+
+
+
+
+
+{% for item in post %}
+<div class="container border rounded shadow-sm p-3 m-2 col-12 th-txt">
+<div class="d-flex flex-row justify-content-around">
+    <b class="display-5">{{item.post_by}}</b>
+    <p class="display-6">{{item.post_date}}</p>
+</div>
+<hr>
+<div class="container">
+    <p class="display-3">{{item.post_text}}</p>
+</div>
+
+    
+
+
+</div>
+{% endfor %}
+
+
+
+{% endblock content %}
+
+

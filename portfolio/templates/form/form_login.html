@@ -1,7 +1,6 @@
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -29,79 +28,39 @@
     <script src="https://code.jquery.com/jquery-3.6.1.js"
         integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
 </head>
-
 <body>
-    
     <div class="container mt-4">
-        <form action="" method="post"
+        <form action="login" method="post"
             class="form-group border rounded p-4 d-flex flex-column justify-content-center align-items-center col-12 shadow">
             {% csrf_token %}
             <strong class="border rounded p-2 shadow">
                 <a href="/" class="nav-link">
-                    <p class="display-2">Register</p>
+                    <p class="display-2">{{title}}</p>
                 </a>
             </strong>
-            <hr>
-            <div class="state m-1 col-8 d-flex justify-content-around">
-                <!-- {% if state == '0000' %}
-                <div class="alert alert-primary invisible" role="alert">
-                    <strong>Alert Heading</strong> 
-                    <p>None</p>
-                </div>
-                {% elif state == '0001' %}
-                <div class="alert alert-warning col-6 d-flex flex-column justify-content-center align-items-center" role="alert">
-                    <strong>Info</strong> 
-                    <p>Check your password</p>
-                </div>
-                {% elif state == '0002' %}
-                <div class="alert alert-success col-6 d-flex flex-column justify-content-conter align-items-center" role="alert">
-                    <strong>Save</strong> 
-                    <p>Success</p>
-                </div>
-                {% elif state == '0011' %}
-                <div class="alert alert-danger col-6 d-flex flex-column justify-content-conter align-items-center" role="alert">
-                    <strong>Danger</strong> 
-                    <p>Low security</p>
-                </div>
-                {% endif %} -->
+            <hr>    
+            <div>
                 {% for message in messages %}
                     <div class="alert alert-warning" role="alert">
                         {{message}}
                     </div>
-                    
                 {% endfor %}
-                
-            </div>
-            <div id="entry" class="form-group m-3 col-8">
-                <label for="name" class="form-label">First name</label>
-                <input type="text" name="fname" id="" class="form-control shadow-sm">
-            </div>
-            <div id="entry" class="form-group m-3 col-8">
-                <label for="name" class="form-label">Last name</label>
-                <input type="text" name="lname" id="" class="form-control shadow-sm">
+            
             </div>
             <div id="entry" class="form-group m-3 col-8">
                 <label for="username" class="form-label">Username</label>
                 <input type="text" name="username" id="" class="form-control shadow-sm">
             </div>
             <div id="entry" class="form-group m-3 col-8">
-                <label for="email" class="form-label">E-mail</label>
-                <input type="email" name="email" id="" class="form-control shadow-sm">
-            </div>
-            <div id="entry" class="form-group m-3 col-8">
                 <label for="password" class="form-label">Password</label>
                 <input type="password" name="password" id="" class="form-control shadow-sm">
             </div>
-            <div id="entry" class="form-group m-3 col-8">
-                <label for="password" class="form-label">Confirm Password</label>
-                <input type="password" name="cf_password" id="" class="form-control shadow-sm">
-            </div>     
             <div class="form-group m-3 col-8 d-flex justify-content-around">
                 <button type="reset" class="btn btn-danger m-3">Clear form</button>
                 <button id="submit" type="submit" class="btn btn-success m-3">Submit</button>
             </div>
         </form>
     </div>
+    
 </body>
-
 </html>
